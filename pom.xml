@@ -66,7 +66,7 @@
 		    <groupId>io.helidon.microprofile.tracing</groupId>
 		    <artifactId>helidon-microprofile-tracing</artifactId>
 		</dependency>
-        <dependency>
+        <!-- <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-api</artifactId>
             <scope>test</scope>
@@ -75,7 +75,7 @@
             <groupId>io.helidon.microprofile.tests</groupId>
             <artifactId>helidon-microprofile-tests-junit5</artifactId>
             <scope>test</scope>
-        </dependency>
+        </dependency> -->
     </dependencies>
 
     <build>
