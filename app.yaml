@@ -48,7 +48,7 @@ spec:
     spec:
       containers:
       - name: helidon-quickstart-mp-ikm-8029
-        image: helidon-quickstart-mp-ikm-8029
+        image: docker.io/shashioracle/helidon-quickstart-mp-ikm-8029
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 8029

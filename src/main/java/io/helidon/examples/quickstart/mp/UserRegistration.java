@@ -64,7 +64,7 @@ public class UserRegistration {
 	 	@Path("/openregister")
 	    @GET
 	    @Produces(MediaType.TEXT_HTML)
-	 	@CrossOrigin(value = {"http://152.70.192.169:8080/","http://152.70.192.169:8180/"},
+	 	@CrossOrigin(value = {"http://152.70.192.169:8080/","http://152.70.192.169:8083/"},
 	       allowMethods = {HttpMethod.POST,HttpMethod.GET})
 	    public  Response validateSession(@QueryParam("trackId") String trackId,@QueryParam("userId") String userId) throws URISyntaxException, SQLException {
 	    	
