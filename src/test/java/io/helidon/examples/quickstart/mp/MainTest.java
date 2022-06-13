@@ -23,7 +23,7 @@ class MainTest {
     @Test
     void testHelloWorld() {
         JsonObject jsonObject = target
-                .path("user/login")
+                .path("user/openregister")
                 .request()
                 .get(JsonObject.class);      
     }
