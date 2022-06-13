@@ -91,9 +91,9 @@ public class UserRegistration {
 				}
 				LOGGER.info("Time Stamp       =======>  "+ts+"   and Login status ===========>"+loginStatus);
 				if(calculateTimeDiff(ts) > 20) {
-					 ui = new URI("http://152.70.192.169:8129/timeout.html");
+					 ui = new URI("http://152.70.192.169:8029/timeout.html");
 				} else {
-					 ui = new URI("http://152.70.192.169:8129/register.html");
+					 ui = new URI("http://152.70.192.169:8029/register.html");
 				}
 			 }catch(Exception e) {
 				 e.printStackTrace();

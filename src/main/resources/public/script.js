@@ -47,7 +47,7 @@ $(document).ready(function() {
  } else {
 	
 	alert("Invalid Session - Kindly Login");
-	window.location.href = "http://152.70.192.169:8129/login.html";
+	window.location.href = "http://152.70.192.169:8029/login.html";
 }
        // return false;
         
