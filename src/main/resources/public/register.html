@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>HTML CSS Register Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script
+	  src="https://code.jquery.com/jquery-3.6.0.min.js"
+	  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+	  crossorigin="anonymous"></script>
+	<script
+	  src="https://code.jquery.com/ui/1.13.1/jquery-ui.min.js"
+	  integrity="sha256-eTyxS0rkjpLEo16uXTS0uVCS4815lc40K2iVpWDvdSY="
+	  crossorigin="anonymous"></script>
+    <script type="text/javascript" src="/script.js"></script>
+    <script type="text/javascript" src="/check.js"></script>
+  </head>
+  <body >
+    <form id="registrationForm" class="signup-form" >
+
+      <!-- form header -->
+      <div class="form-header">
+        <h1>Create Account</h1>
+      </div>
+
+      <!-- form body -->
+      <div class="form-body">
+
+        <!-- Firstname and Lastname -->
+        <div class="horizontal-group">
+          <div class="form-group left">
+            <label for="firstname" class="label-title">First name *</label>
+            <input type="text" id="firstName" class="form-input" placeholder="enter your first name" required="required" />
+          </div>
+          <div class="form-group right">
+            <label for="lastname" class="label-title">Last name</label>
+            <input type="text" id="lastName" class="form-input" placeholder="enter your last name" />
+          </div>
+        </div>
+
+        <!-- Email -->
+        <div class="form-group">
+          <label for="email" class="label-title">Email*</label>
+          <input type="email" id="email" class="form-input" placeholder="enter your email" required="required">
+        </div>
+
+        <!-- Passwrod and confirm password -->
+          
+          <div class="form-group">
+            <label for="phone" class="label-title">Phone *</label>
+            <input type="text" class="form-input" id="phone" placeholder="enter your password again" required="required">
+          </div>
+          <div class="form-group">
+            <label for="password" class="label-title">Password *</label>
+            <input type="password" id="pwd" class="form-input" placeholder="enter your password" required="required">
+          </div>
+
+        
+
+      <!-- form-footer -->
+      <div class="form-footer right" id="result">
+        <span>* required</span>
+        
+        <button id="submitButton" type="submit" class="btn">Create</button>
+      </div>
+
+    </form>
+
+    
+
+  </body>
+</html>

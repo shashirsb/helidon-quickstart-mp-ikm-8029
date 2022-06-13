@@ -28,4 +28,4 @@ COPY --from=build /helidon/target/libs ./libs
 
 CMD ["java", "-jar", "helidon-quickstart-mp-ikm-8029.jar"]
 
-EXPOSE 8080
+EXPOSE 8029
