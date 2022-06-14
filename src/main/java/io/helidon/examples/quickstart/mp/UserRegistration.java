@@ -64,7 +64,7 @@ public class UserRegistration {
 	 	@Path("/openregister")
 	    @GET
 	    @Produces(MediaType.TEXT_HTML)
-	 	@CrossOrigin(value = {"http://152.70.192.169:8080/","http://152.70.192.169:8083/"},
+	 	@CrossOrigin(value = {"http://152.70.192.169:8080/","http://141.148.33.87:8080/"},
 	       allowMethods = {HttpMethod.POST,HttpMethod.GET})
 	    public  Response validateSession(@QueryParam("trackId") String trackId,@QueryParam("userId") String userId) throws URISyntaxException, SQLException {
 	    	
@@ -91,9 +91,9 @@ public class UserRegistration {
 				}
 				LOGGER.info("Time Stamp       =======>  "+ts+"   and Login status ===========>"+loginStatus);
 				if(calculateTimeDiff(ts) > 20) {
-					 ui = new URI("http://152.70.192.169:8029/timeout.html");
+					 ui = new URI("http://129.159.104.70:8080/timeout.html");
 				} else {
-					 ui = new URI("http://152.70.192.169:8029/register.html");
+					 ui = new URI("http://129.159.104.70:8080/register.html");
 				}
 			 }catch(Exception e) {
 				 e.printStackTrace();
