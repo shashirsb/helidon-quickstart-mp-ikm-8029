@@ -38,7 +38,7 @@ function getUserList() {
 	if(getCookie1("sessionUUid") != null && getCookie1("userId") != null && getCookie1("sessionUUid") != "" && getCookie1("userId") != ""){
 		
 		var track = "?trackId=" + getCookie1("sessionUUid")+"&userId="+getCookie1("userId");
-		window.location.href = "http://152.70.192.169:8183/user/openUserList"+track;
+		window.location.href = "http://1150.136.116.225:30994/user/openUserList"+track;
 		
 	} else {
 		alert("Invalid Session - Kindly Login");
