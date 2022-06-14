@@ -12,7 +12,7 @@ function checkCokkies(){
 		
 	} else {
 		alert("Invalid Session - Kindly Login");
-		window.location.href = "http://129.159.104.70:8080/login.html";
+		window.location.href = "http://152.70.192.169:8080/login.html";
 	}
 }
 
@@ -42,7 +42,7 @@ function getUserList() {
 		
 	} else {
 		alert("Invalid Session - Kindly Login");
-		window.location.href = "http://129.159.104.70:8080/login.html";
+		window.location.href = "http://152.70.192.169:8080/login.html";
 	}
 
 }
