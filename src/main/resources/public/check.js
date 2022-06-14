@@ -8,11 +8,11 @@ function checkCokkies(){
 	if(getCookie1("sessionUUid") != null && getCookie1("userId") != null && getCookie1("sessionUUid") != "" && getCookie1("userId") != ""){
 		
 		//var track = "?trackId=" + getCookie1("sessionUUid")+"&userId="+getCookie1("userId");
-		//window.location.href = "http://129.159.104.70:8080/user/openregister"+track;
+		//window.location.href = "http://150.136.116.225:30998/user/openregister"+track;
 		
 	} else {
 		alert("Invalid Session - Kindly Login");
-		window.location.href = "http://152.70.192.169:8080/login.html";
+		window.location.href = "http://150.136.116.225:30996/login.html";
 	}
 }
 
@@ -42,7 +42,7 @@ function getUserList() {
 		
 	} else {
 		alert("Invalid Session - Kindly Login");
-		window.location.href = "http://152.70.192.169:8080/login.html";
+		window.location.href = "http://150.136.116.225:30996/login.html";
 	}
 
 }
